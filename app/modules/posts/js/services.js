@@ -1,6 +1,8 @@
 'use strict'
 
+// module 'spBlogger.posts.services'
 angular.module('spBlogger.posts.services', [])
+	// postService factory for posts data
 	.factory('postService', function(){
 		return {
 			posts: [{
